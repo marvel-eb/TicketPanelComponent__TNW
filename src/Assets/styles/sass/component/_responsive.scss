@@ -1,0 +1,124 @@
+// Responsiveness -- Media Queries
+
+/*  MOBILE  - Small devices (landscape phones, 576px and up) */
+@include phone-min {
+  .ticket__pricing-table .plan .btn--pink a.register {
+    letter-spacing: 0.1rem;
+  }
+}
+
+/* TABLET devices (landscape phones, less than 768px) */
+@include tablet-max {
+  .ticket__pricing-table > div {
+    min-width: 240px;
+    flex-basis: 10%;
+  }
+  .specs__title {
+    height: auto;
+  }
+  .ticket__pricing-table .plan .btn--pink a.register {
+    letter-spacing: 0.1rem;
+  }
+}
+
+/* DESKTOP  - Large devices (desktops, 992px and up) */
+@include desktop-min {
+  .ticket__pricing-table > div {
+    min-width: 190px;
+  }
+  .container {
+    margin: 75px 2% 10px;
+  }
+  .footer {
+    margin: 25px 5%;
+  }
+  .col-top {
+    height: 52vh;
+    padding: 0.5rem;
+  }
+
+  .ticket__pricing-table .plan .btn--pink a.register {
+    letter-spacing: normal;
+  }
+
+  .plan.vert__hr {
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #f1f1f1;
+  }
+  .specs__title {
+    height: 2rem;
+  }
+  .txt-mobile {
+    display: none;
+  }
+}
+/* DESKTOP - Medium devices (tablets, less than 992px) */
+@include desktop-max {
+  .container {
+    margin: 50px 25px;
+  }
+  .footer {
+    margin: 25px 5%;
+  }
+  .col__wrapper {
+    display: none;
+  }
+  .ticket__pricing-table > div {
+    background-color: #e7e7e7;
+    border-radius: 1rem;
+    transition: all 0.2s;
+
+    box-shadow: 0 0.5rem 1rem 0 #c9c9c9;
+
+    margin: 5px 5px;
+    margin-bottom: 2rem;
+    border-color: $white;
+    border-width: 10px 3px;
+    border-style: solid;
+  }
+
+  .specs__list > div:nth-of-type(2n + 1) {
+    background-color: #d9d9d9;
+  }
+  align-items: center;
+
+  .txt-desktop {
+    display: none;
+  }
+  .recommended {
+    top: -30px;
+
+    -webkit-border-top-left-radius: 1rem;
+    -webkit-border-top-right-radius: 1rem;
+    -moz-border-radius-topleft: 1rem;
+    -moz-border-radius-topright: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  .product-price__discount,
+  .ticket__pricing-table .plan .mini-txt {
+    color: #262626;
+    text-shadow: none;
+  }
+  .ticket__pricing-table .plan .mini-txt {
+    font-size: 13px;
+  }
+}
+
+/* DESKTOP - Extra Large devices (desktops, 1200px and up) */
+@include desktop-xl-min {
+  .ticket__pricing-table > div {
+    min-width: 240px;
+  }
+  .container {
+    margin: 75px 5% 10px;
+  }
+
+  .col-top {
+    height: 40vh;
+  }
+  .ticket__pricing-table .plan .btn--pink a.register {
+    letter-spacing: 0.1rem;
+  }
+}

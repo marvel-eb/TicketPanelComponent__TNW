@@ -1,0 +1,17 @@
+// Layout
+
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}

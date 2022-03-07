@@ -1,0 +1,56 @@
+// Base
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+html,
+body {
+  height: 100%;
+
+  body {
+    font: 13px/28px "Roboto";
+    font-weight: lighter;
+    background-color: $white;
+   
+  }
+   overflow: hidden;
+}
+html, body,  div#root{
+  overflow: hidden;
+}
+:focus {
+  outline: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+p,
+table,
+form,
+pre {
+  margin: 0 0 12px;
+}
+
+/*  Psedo Selections
+----------------------------*/
+::-moz-selection {
+  background: $pink;
+  text-shadow: none;
+}
+::selection {
+  background: $pink;
+  text-shadow: none;
+}
+img::-moz-selection {
+  background: transparent;
+}
+img::selection {
+  background: transparent;
+}

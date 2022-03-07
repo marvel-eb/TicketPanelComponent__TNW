@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,700");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.btn--pink {
+  padding: 1rem;
+  transition: all 0.2s;
+}
+.btn--pink:hover {
+  color: #ffffff;
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+html body,
+body body {
+  font: 13px/28px "Roboto";
+  font-weight: lighter;
+  background-color: #ffffff;
+}
+
+:focus {
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+p,
+table,
+form,
+pre {
+  margin: 0 0 12px;
+}
+
+/*  Psedo Selections
+----------------------------*/
+::-moz-selection {
+  background: #ca008c;
+  text-shadow: none;
+}
+
+::selection {
+  background: #ca008c;
+  text-shadow: none;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+img::selection {
+  background: transparent;
+}
+
+.cf:before,
+.cf:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+body {
+  color: #202020;
+}
+
+P {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 0.1rem;
+  color: #202020;
+}
+
+/* Main Headings 
+----------------------------*/
+h1,
+.h1 {
+  font-size: calc(2.375rem + 2.5vw);
+}
+
+h2,
+.h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+
+h3,
+.h3 {
+  font-size: calc(1.2rem + 0.6vw);
+}
+
+h4,
+.h4 {
+  font-size: calc(1.17rem + 0.3vw);
+}
+
+h5,
+.h4 {
+  font-size: calc(1.15rem + 0.2vw);
+}
+
+h6,
+.h4 {
+  font-size: calc(1rem + 0.1vw);
+}
+
+strong {
+  font-weight: bold;
+}
+
+.ticket__pricing-table {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.ticket__pricing-table p.txt-desktop,
+.ticket__pricing-table p.txt-mobile {
+  margin: 0px;
+  line-height: normal;
+}
+.ticket__pricing-table .plan {
+  box-sizing: border-box;
+}
+.ticket__pricing-table .plan h3.title {
+  padding: 15px;
+  color: #23282d;
+}
+.ticket__pricing-table .plan .mini-txt {
+  font-size: 13px;
+  color: #adb0b7;
+}
+.ticket__pricing-table .plan .product-price {
+  margin-top: 1.5rem;
+  display: block;
+}
+.ticket__pricing-table .plan .product-price .product-price__actual,
+.ticket__pricing-table .plan .product-price .product-price__sale {
+  font-size: 1.6rem;
+  color: #140606;
+  line-height: 20px;
+  margin-top: 2rem;
+}
+.ticket__pricing-table .plan .product-price .product-price__discount {
+  font-size: 1rem;
+  color: #a5a5a5;
+  line-height: 1.5;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 4px;
+}
+.ticket__pricing-table .plan .product-price .product-price__sale {
+  display: inline-block;
+}
+.ticket__pricing-table .plan .product-price .product-price__sale .product-price__sale-euro {
+  font-size: 1.6rem;
+  color: #f70000;
+}
+.ticket__pricing-table .plan .product-price .product-price__sale .product-price__sale-cents {
+  font-size: 0.7rem;
+  color: #f70000;
+}
+.ticket__pricing-table .plan .product-price .product-price__sale-euro span {
+  font-size: 16px;
+  font-style: italic;
+}
+.ticket__pricing-table .plan .btn--pink a.register {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #ca008c;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+.ticket__pricing-table .popular {
+  box-shadow: 0 20px 30px -5px #c9c9c9;
+  position: relative;
+}
+.ticket__pricing-table .recommended {
+  color: #ffffff;
+  padding: 10px 0;
+  background-color: #0ec0a5;
+  background-image: linear-gradient(90deg, #64008b 0%, #ca008c 100%);
+  position: absolute;
+  top: -35px;
+  width: 100%;
+}
+
+.ticket__pricing-table > div {
+  text-align: center;
+  flex-basis: 19%;
+  flex-grow: 1;
+  min-width: 240px;
+  margin-bottom: 2rem;
+}
+.ticket__pricing-table > div .plan-inner {
+  display: flex;
+  flex-direction: column;
+}
+.ticket__pricing-table > div .plan-inner .col-top {
+  align-items: flex-start;
+  padding: 1rem;
+}
+.ticket__pricing-table > div .plan-inner .col-middle {
+  align-items: center;
+}
+.ticket__pricing-table > div .plan-inner .col-bottom {
+  align-items: flex-end;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+  border-top: 1px solid #d3d3d3;
+}
+
+.specs__list {
+  padding-bottom: 0;
+}
+.specs__list .specs__row .specs__title {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.specs__list > div:nth-of-type(2n + 1) {
+  background-color: #f7f8f8;
+  padding: 5px 0;
+}
+
+hr {
+  border-top: 1px px solid #b7b7b7;
+  border-bottom: 1px solid #ffffff;
+}
+
+.btn, .btn--pink {
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-wrapper {
+  margin-top: 2rem;
+  background-color: #f5f5f5;
+  padding: 5px;
+}
+.footer-wrapper h2, .footer-wrapper p {
+  text-shadow: 0 1px #ffffff;
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/*  Medium devices (tablets, 768px and up) */
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .ticket__pricing-table > div {
+    min-width: 240px;
+    flex-basis: 10%;
+  }
+
+  .specs__title {
+    height: auto;
+  }
+
+  .ticket__pricing-table .plan .btn--pink a.register {
+    letter-spacing: 0.1rem;
+  }
+}
+/* Responsive - Media Queries
+--------------------------------*/
+/*  MOBILE  - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .ticket__pricing-table .plan .btn--pink a.register {
+    letter-spacing: 0.1rem;
+  }
+}
+/* MOBILE - Extra small devices (portrait phones, less than 576px) */
+/*  TABLET  -  Medium devices (tablets, 768px and up) */
+/* DESKTOP  - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .ticket__pricing-table > div {
+    min-width: 190px;
+  }
+
+  .container {
+    margin: 75px 2% 10px;
+  }
+
+  .footer {
+    margin: 25px 5%;
+  }
+
+  .col-top {
+    height: 52vh;
+    padding: 0.5rem;
+  }
+
+  .ticket__pricing-table .plan .btn--pink a.register {
+    letter-spacing: normal;
+  }
+
+  .plan.vert__hr {
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #f1f1f1;
+  }
+
+  .specs__title {
+    height: 2rem;
+  }
+
+  .txt-mobile {
+    display: none;
+  }
+}
+/* DESKTOP - Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .container {
+    margin: 50px 25px;
+  }
+
+  .footer {
+    margin: 25px 5%;
+  }
+
+  .col__wrapper {
+    display: none;
+  }
+
+  .ticket__pricing-table > div {
+    background-color: #e7e7e7;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 #c9c9c9;
+    margin: 5px 5px;
+    margin-bottom: 2rem;
+    border-color: #ffffff;
+    border-width: 10px 3px;
+    border-style: solid;
+  }
+
+  .specs__list > div:nth-of-type(2n + 1) {
+    background-color: #d9d9d9;
+  }
+
+  .txt-desktop {
+    display: none;
+  }
+
+  .recommended {
+    top: -30px;
+    -webkit-border-top-left-radius: 1rem;
+    -webkit-border-top-right-radius: 1rem;
+    -moz-border-radius-topleft: 1rem;
+    -moz-border-radius-topright: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .product-price__discount,
+.ticket__pricing-table .plan .mini-txt {
+    color: #262626;
+    text-shadow: none;
+  }
+
+  .ticket__pricing-table .plan .mini-txt {
+    font-size: 13px;
+  }
+}
+/* DESKTOP - Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .ticket__pricing-table > div {
+    min-width: 240px;
+  }
+
+  .container {
+    margin: 75px 5% 10px;
+  }
+
+  .col-top {
+    height: 40vh;
+  }
+
+  .ticket__pricing-table .plan .btn--pink a.register {
+    letter-spacing: 0.1rem;
+  }
+}
+/* DESKTOP - Large devices (desktops, less than 1200px) */
+.container-fluid {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}/*# sourceMappingURL=main-styles.css.map */
