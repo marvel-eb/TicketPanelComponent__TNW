@@ -1,0 +1,223 @@
+  {
+         "id":67674,
+         "title":"In-person + Digital",
+         "tickets":[
+            {
+               "ticketName":"Business Pass",
+               "ticketTopLabel":"Most popular",
+               "ticketHighlighted":true,
+               "ticketDescription":"Get the full experience with access to the in-person + digital event. Access the second day only for 50% off!",
+               "ticketDiscount":"Super early bird",
+               "ticketStrikethroughPrice":"800",
+               "ticketLatePrice":null,
+               "ticketActualPrice":"400",
+               "ticketButtonLink":"https://earlybird.thenextweb.com/tnw-2021/business-pass?code=superearlybird",
+               "ticketButtonLabel":"REGISTER NOW",
+               "ticketPerks":[
+                  {
+                     "col1":"Access to TNW Conference Digital",
+                     "col2":"Live access to the digital events platform",
+                     "col3":"1",
+                     "ticketPerk":"Access to TNW Conference Digital",
+                     "perkDescription":"Live access to the digital events platform",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Access to TNW Conference In-person (Amsterdam)",
+                     "col2":"Join us in-person in Amsterdam",
+                     "col3":"1",
+                     "ticketPerk":"Access to TNW Conference In-person (Amsterdam)",
+                     "perkDescription":"Join us in-person in Amsterdam",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Access networking, matchmaking, and meeting scheduler (hybrid)",
+                     "col2":"Access the attendee list and schedule meetings with in-person as well as digital participants",
+                     "col3":"1",
+                     "ticketPerk":"Access networking, matchmaking, and meeting scheduler (hybrid)",
+                     "perkDescription":"Access the attendee list and schedule meetings with in-person as well as digital participants",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Re-watch talks on demand after the event",
+                     "col2":"Get access to TNW Talks where you can view talks on demand",
+                     "col3":"1",
+                     "ticketPerk":"Re-watch talks on demand after the event",
+                     "perkDescription":"Get access to TNW Talks where you can view talks on demand",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Access to dedicated speaker and meeting rooms.",
+                     "col2":"Host your meetings in a dedicated area, only accessible for speakers and executive pass holders",
+                     "col3":"",
+                     "ticketPerk":"Access to dedicated speaker and meeting rooms.",
+                     "perkDescription":"Host your meetings in a dedicated area, only accessible for speakers and executive pass holders",
+                     "perkActive":""
+                  }
+               ]
+            },
+            {
+               "ticketName":"Executive Pass",
+               "ticketTopLabel":null,
+               "ticketHighlighted":false,
+               "ticketDescription":"Get the executive experience with access to the in-person + digital event, as well as access to dedicated speaker and meeting rooms. NOW: including a 1-hour call with a TNW founder.",
+               "ticketDiscount":null,
+               "ticketStrikethroughPrice":null,
+               "ticketLatePrice":null,
+               "ticketActualPrice":"1250",
+               "ticketButtonLink":"https://earlybird.thenextweb.com/tnw-2021/executive-business-pass",
+               "ticketButtonLabel":"Register Now",
+               "ticketPerks":[
+                  {
+                     "col1":"Access to TNW Conference Digital",
+                     "col2":"Live access to the digital events platform",
+                     "col3":"1",
+                     "ticketPerk":"Access to TNW Conference Digital",
+                     "perkDescription":"Live access to the digital events platform",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Access to TNW Conference In-person (Amsterdam)",
+                     "col2":"Join us in-person in Amsterdam",
+                     "col3":"1",
+                     "ticketPerk":"Access to TNW Conference In-person (Amsterdam)",
+                     "perkDescription":"Join us in-person in Amsterdam",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Access networking, matchmaking, and meeting scheduler (hybrid)",
+                     "col2":"Access the attendee list and schedule meetings with in-person as well as digital participants",
+                     "col3":"1",
+                     "ticketPerk":"Access networking, matchmaking, and meeting scheduler (hybrid)",
+                     "perkDescription":"Access the attendee list and schedule meetings with in-person as well as digital participants",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Re-watch talks on demand after the event",
+                     "col2":"Get access to TNW Talks where you can view talks on demand",
+                     "col3":"1",
+                     "ticketPerk":"Re-watch talks on demand after the event",
+                     "perkDescription":"Get access to TNW Talks where you can view talks on demand",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Access to dedicated speaker and meeting rooms.",
+                     "col2":"Host your meetings in a dedicated area, only accessible for speakers and executive pass holders",
+                     "col3":"1",
+                     "ticketPerk":"Access to dedicated speaker and meeting rooms.",
+                     "perkDescription":"Host your meetings in a dedicated area, only accessible for speakers and executive pass holders",
+                     "perkActive":"1"
+                  }
+               ]
+            },
+            {
+               "ticketName":"Investor Pass",
+               "ticketTopLabel":null,
+               "ticketHighlighted":false,
+               "ticketDescription":"\nGet the full experience with access to the in-person + digital event. Access the second day only for 50% off!\n",
+               "ticketDiscount":"Super early bird",
+               "ticketStrikethroughPrice":"800",
+               "ticketLatePrice":null,
+               "ticketActualPrice":"400",
+               "ticketButtonLink":"https://earlybird.thenextweb.com/tnw-2021/investor-pass?code=SUPEREARLYBIRD",
+               "ticketButtonLabel":"REGISTER NOW",
+               "ticketPerks":[
+                  {
+                     "col1":"Access to TNW Conference Digital",
+                     "col2":"Live access to the digital events platform",
+                     "col3":"1",
+                     "ticketPerk":"Access to TNW Conference Digital",
+                     "perkDescription":"Live access to the digital events platform",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Access to TNW Conference In-person (Amsterdam)",
+                     "col2":"Join us in-person in Amsterdam",
+                     "col3":"1",
+                     "ticketPerk":"Access to TNW Conference In-person (Amsterdam)",
+                     "perkDescription":"Join us in-person in Amsterdam",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Access networking and matchmaking (hybrid)",
+                     "col2":"Access the attendee list and schedule meetings with in-person as well as digital participants",
+                     "col3":"1",
+                     "ticketPerk":"Access networking and matchmaking (hybrid)",
+                     "perkDescription":"Access the attendee list and schedule meetings with in-person as well as digital participants",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Re-watch talks on demand after the event",
+                     "col2":"Get access to TNW Talks where you can view talks on demand",
+                     "col3":"1",
+                     "ticketPerk":"Re-watch talks on demand after the event",
+                     "perkDescription":"Get access to TNW Talks where you can view talks on demand",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Access to speaker and dedicated meeting area",
+                     "col2":"Host your meetings in a dedicated area, only accessible for speakers and executive pass holders",
+                     "col3":"",
+                     "ticketPerk":"Access to speaker and dedicated meeting area",
+                     "perkDescription":"Host your meetings in a dedicated area, only accessible for speakers and executive pass holders",
+                     "perkActive":""
+                  }
+               ]
+            },
+            {
+               "ticketName":"Startup Program",
+               "ticketTopLabel":null,
+               "ticketHighlighted":false,
+               "ticketDescription":"Get the full experience with access to the in-person + digital event. Access the second day only for 50% off!",
+               "ticketDiscount":null,
+               "ticketStrikethroughPrice":"1000",
+               "ticketLatePrice":null,
+               "ticketActualPrice":"800",
+               "ticketButtonLink":"https://earlybird.thenextweb.com/tnw-2021/startup-program?code=EARLYBIRDSTARTUPPROGRAM",
+               "ticketButtonLabel":"Sold out",
+               "ticketPerks":[
+                  {
+                     "col1":"2 Business Passes (in-person + digital)",
+                     "col2":"2 people will get access to the In-person as well as the digital event",
+                     "col3":"1",
+                     "ticketPerk":"2 Business Passes (in-person + digital)",
+                     "perkDescription":"2 people will get access to the In-person as well as the digital event",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"2 Digital-only Business Passes",
+                     "col2":"2 people will get access to the digital event",
+                     "col3":"",
+                     "ticketPerk":"2 Digital-only Business Passes",
+                     "perkDescription":"2 people will get access to the digital event",
+                     "perkActive":""
+                  },
+                  {
+                     "col1":"1-day startup booth (In-person OR Digital)",
+                     "col2":"Get a 1-day startup booth in the expo area in Amsterdam or a virtual booth on the digital platform",
+                     "col3":"1",
+                     "ticketPerk":"1-day startup booth (In-person OR Digital)",
+                     "perkDescription":"Get a 1-day startup booth in the expo area in Amsterdam or a virtual booth on the digital platform",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Apply for pitch competition",
+                     "col2":"Get a chance to pitch your company in front of investors and media",
+                     "col3":"1",
+                     "ticketPerk":"Apply for pitch competition",
+                     "perkDescription":"Get a chance to pitch your company in front of investors and media",
+                     "perkActive":"1"
+                  },
+                  {
+                     "col1":"Access to dedicated speaker and meeting rooms.",
+                     "col2":"Host your meetings in a dedicated area, only accessible for speakers and executive pass holders",
+                     "col3":"",
+                     "ticketPerk":"Access to dedicated speaker and meeting rooms.",
+                     "perkDescription":"Host your meetings in a dedicated area, only accessible for speakers and executive pass holders",
+                     "perkActive":""
+                  }
+               ]
+            }
+         ],
+         "jsonUrl":"https://next.tnw-staging.com/conference/tickets/digital-attendees-free-included.json"
+      }
